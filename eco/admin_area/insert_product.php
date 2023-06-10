@@ -29,7 +29,7 @@ if (isset($_POST["insert_product"])) {
         exit();
     }
     else{
-        move_uploaded_file($temp_image2,"./product_image/".rand(111,999)."product_image2");
+        move_uploaded_file($temp_image2,"./product_image/product_image2");
         move_uploaded_file($temp_image3,"./product_image/$product_image3");
 
         $inser_query="INSERT INTO `products` ( `product_title`, `product_des`, `product_keywords`, `cat_id`, `brand_id`, `product_image1`, `product_image2`, `product_image3`, `product_price`, `date`) VALUES ('$product_title ', '$product_des', '$product_keywords', '$cat_id', '$brand_id', '$product_image1', '$product_image2', '$product_image3', '$product_price', current_timestamp())";
