@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "admin_area"
+		},
+		{
+			"path": "function"
+		},
+		{
+			"path": "includes"
+		},
+		{
+			"path": "Products"
+		},
+		{
+			"path": "user_area"
+		}
+	],
+	"settings": {}
+}
